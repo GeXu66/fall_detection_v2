@@ -27,7 +27,7 @@ pip install opencv-python matplotlib polars pyyaml pillow psutil requests scipy 
 ## Run
 Use the new entrypoint. If the video path contains spaces, wrap it in quotes.
 ```bash
-python main.py -ds 4 --bed-center-offset 0 -60 "./dataset/Real/fall/video1.mp4"
+python main.py -ds 4 "./dataset/Real/fall/video1.mp4"
 ```
 Or omit the argument to use the default input:
 ```bash

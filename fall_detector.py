@@ -511,7 +511,7 @@ def process_video(
                                 reliable_face_points += 1
                         except Exception:
                             continue
-                    if reliable_face_points < 3:
+                    if reliable_face_points < 2:
                         no_fall_by_cleaning_floor = False
 
                 # New rule: ankle above hip AND hip above shoulder implies may fall
